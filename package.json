@@ -1,0 +1,20 @@
+{
+  "name": "npm_test",
+  "version": "0.1.0",
+  "description": "Prove package.json files",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon --ignore lines/**/*.json --quiet index.js",
+    "test": "jest --detectOpenHandles --runInBand"
+  },
+  "repository": "github:GermanMT/prueba_npm",
+  "license": "EPL-2.0",
+  "dependencies": {
+    "swagger-ui-express": "^4.6.0",
+    "log": "^6.3.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
